@@ -1,7 +1,7 @@
 ## Introduction (Round 0)
 
 
-<b>Discipline | <b>Pysicsal Sciences
+<b>Discipline | <b>Physical Sciences
 :--|:--|
 <b> Lab | <b> Basics of Physics
 <b> Experiment|     <b> 4. Polarization of light using He – Ne Laser 
