@@ -97,7 +97,7 @@
         c: "hyperbolic",                  ///// Write the option 3 inside double quotes
         d: "Circular"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
@@ -108,7 +108,7 @@
         c: "180 degree",                  ///// Write the option 3 inside double quotes
         d: "None of These"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
