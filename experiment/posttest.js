@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "Nature of graph between intensity light coming out of Analyzer and Cos<sup>2</sup> θ is",  ///// Write the question inside double quotes
+      question: "Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup> θ is",  ///// Write the question inside double quotes
       answers: {
         a: "Straight line",                  ///// Write the option 1 inside double quotes
         b: "Parabolic",                  ///// Write the option 2 inside double quotes
