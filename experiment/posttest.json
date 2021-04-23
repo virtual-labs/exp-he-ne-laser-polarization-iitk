@@ -1,1 +1,19 @@
-[{"question":"Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup> θ is","answers":{"a":"Straight line","b":"Parabolic","c":"hyperbolic","d":"Circular"},"correctAnswer":"a"},{"question":"Almost no light will come out of analyzer if the angle between polarizer and analyzer is","answers":{"a":"0 degree","b":"90 degree","c":"180 degree","d":"None of These"},"correctAnswer":"b"}]
+[{
+	"question": "Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup> θ is",
+	"answers": {
+		"a": "Straight line",
+		"b": "Parabolic",
+		"c": "hyperbolic",
+		"d": "Circular"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Almost no light will come out of analyzer if the angle between polarizer and analyzer is",
+	"answers": {
+		"a": "0 degree",
+		"b": "90 degree",
+		"c": "180 degree",
+		"d": "None of These"
+	},
+	"correctAnswer": "b"
+}]
