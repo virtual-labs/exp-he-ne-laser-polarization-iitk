@@ -1,1 +1,19 @@
-[{"question":"Property of Polarization can be observed in:","answers":{"a":"Transverse wave","b":"Longitudinal wave","c":"Both","d":"None of these"},"correctAnswer":"a"},{"question":"According to law of Malus the intensity of the light coming out of Analyzer is directly proportional to:","answers":{"a":"Cosθ","b":"Cos<sup>2</sup> θ","c":"Cos<sup>3</sup> θ","d":"None of these"},"correctAnswer":"b"}]
+[{
+	"question": "Property of Polarization can be observed in:",
+	"answers": {
+		"a": "Transverse wave",
+		"b": "Longitudinal wave",
+		"c": "Both",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "According to law of Malus the intensity of the light coming out of Analyzer is directly proportional to:",
+	"answers": {
+		"a": "Cosθ",
+		"b": "Cos<sup>2</sup> θ",
+		"c": "Cos<sup>3</sup> θ",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}]
