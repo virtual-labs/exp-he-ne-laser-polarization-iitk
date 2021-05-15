@@ -4,11 +4,7 @@
 <b>Discipline | <b>Physical Sciences
 :--|:--|
 <b> Lab | <b> Basics of Physics
-<b> Experiment|     <b> 4. Polarization of light using He – Ne Laser 
-
-<h5> About the Lab (Objective) : </h5>
-
-
+<b> Experiment|     <b> 9. Polarization of light using He – Ne Laser 
 
 <h5> About the Experiment : </h5>
 
