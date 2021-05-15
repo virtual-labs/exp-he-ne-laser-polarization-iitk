@@ -16,4 +16,24 @@
 		"d": "None of these"
 	},
 	"correctAnswer": "b"
+},
+{
+	"question": "Unpolarised light is:",
+	"answers": {
+		"a": "Transverse Electromagnetic wave",
+		"b": "longitudinal Electromagnetic wave",
+		"c": "Mechanical wave",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+},
+ {
+	"question": "Polarization cannot be observed in:",
+	"answers": {
+		"a": "Light wave",
+		"b": "Sound wave",
+		"c": "both",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
 }]

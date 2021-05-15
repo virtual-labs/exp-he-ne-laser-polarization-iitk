@@ -89,21 +89,45 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup>θ is:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Straight line", ///// Write the option 1 inside double quotes
+                b: "Parabolic", ///// Write the option 2 inside double quotes
+                c: "hyperbolic", ///// Write the option 2 inside double quotes
+                d: "Circular", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "Almost no light will come out of analyzer if the angle between polarizer and analyzer is:",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
+        a: "0<sup>o</sup>",                  ///// Write the option 1 inside double quotes
+        b: "180<sup>o</sup>",                  ///// Write the option 2 inside double quotes
+        c: "90<sup>o</sup>", 
+        d: "NOT", 
+      },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
+        {
+      question: "Vibrations of the Electric vectors of the Ordinary Light wave are:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Perpendicular to the plane of propagation in all possible directions",                  ///// Write the option 1 inside double quotes
+        b: "Parallel to the plane of propagation",                  ///// Write the option 2 inside double quotes
+        c: "both", 
+        d: "NOT", 
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+        {
+      question: "In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",  ///// Write the question inside double quotes
+      answers: {
+        a: "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",                  ///// Write the option 1 inside double quotes
+        b: "Material of analyzer ",                  ///// Write the option 2 inside double quotes
+        c: "Material of polarizer", 
+        d: "NOT", 
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
 

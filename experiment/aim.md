@@ -1,1 +1,1 @@
-### Aim of the experiment
+### To study polarization of light using He-Ne Laser

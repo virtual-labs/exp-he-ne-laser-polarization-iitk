@@ -16,4 +16,24 @@
 		"d": "None of These"
 	},
 	"correctAnswer": "b"
+},
+ {
+	"question": "Vibrations of the Electric vectors of the Ordinary Light wave are:",
+	"answers": {
+		"a": "Perpendicular to the plane of propagation in all possible directions",
+		"b": "Parallel to the plane of propagation",
+		"c": "both",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",
+	"answers": {
+		"a": "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",
+		"b": "Material of analyzer",
+		"c": "Material of polarizer",
+		"d": "None of These"
+	},
+	"correctAnswer": "a"
 }]
