@@ -122,7 +122,8 @@
         {
       question: "In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",  ///// Write the question inside double quotes
       answers: {
-        a: "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",                  ///// Write the option 1 inside double quotes
+        a: "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",  
+          ///// Write the option 1 inside double quotes
         b: "Material of analyzer ",                  ///// Write the option 2 inside double quotes
         c: "Material of polarizer", 
         d: "NOT", 
