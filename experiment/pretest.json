@@ -1,0 +1,39 @@
+[{
+	"question": "1. Property of Polarization can be observed in:",
+	"answers": {
+		"a": "Transverse wave",
+		"b": "Longitudinal wave",
+		"c": "Both",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. According to law of Malus the intensity of the light coming out of Analyzer is directly proportional to:",
+	"answers": {
+		"a": "Cosθ",
+		"b": "Cos<sup>2</sup> θ",
+		"c": "Cos<sup>3</sup> θ",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "3. Unpolarised light is:",
+	"answers": {
+		"a": "Transverse Electromagnetic wave",
+		"b": "longitudinal Electromagnetic wave",
+		"c": "Mechanical wave",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+},
+ {
+	"question": "4. Polarization cannot be observed in:",
+	"answers": {
+		"a": "Light wave",
+		"b": "Sound wave",
+		"c": "both",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}]

@@ -9,7 +9,11 @@
 <b>Discipline | <b> Pysicsal Sciences
 :--|:--|
 <b> Lab | <b> Basics of Physics
+<<<<<<< HEAD
 <b> Experiment|     <b> 1. Polarization of light using He – Ne Laser 
+=======
+<b> Experiment|     <b> 9. Polarization of light using He – Ne Laser 
+>>>>>>> 61e4fde391a55fd39c6415abf4e61196e29d8109
 
 
 <h4> [1. Focus Area](#LO)
