@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1.Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup>θ is:", ///// Write the question inside double quotes
+            question: "1. Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup>θ is:", ///// Write the question inside double quotes
             answers: {
                 a: "Straight line", ///// Write the option 1 inside double quotes
                 b: "Parabolic", ///// Write the option 2 inside double quotes
@@ -100,7 +100,7 @@
         },
 
     {
-      question: "Almost no light will come out of analyzer if the angle between polarizer and analyzer is:",  ///// Write the question inside double quotes
+      question: "2. Almost no light will come out of analyzer if the angle between polarizer and analyzer is:",  ///// Write the question inside double quotes
       answers: {
         a: "0<sup>o</sup>",                  ///// Write the option 1 inside double quotes
         b: "180<sup>o</sup>",                  ///// Write the option 2 inside double quotes
@@ -110,7 +110,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
         {
-      question: "Vibrations of the Electric vectors of the Ordinary Light wave are:",  ///// Write the question inside double quotes
+      question: "3. Vibrations of the Electric vectors of the Ordinary Light wave are:",  ///// Write the question inside double quotes
       answers: {
         a: "Perpendicular to the plane of propagation in all possible directions",                  ///// Write the option 1 inside double quotes
         b: "Parallel to the plane of propagation",                  ///// Write the option 2 inside double quotes
@@ -120,7 +120,7 @@
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
         {
-      question: "In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",  ///// Write the question inside double quotes
+      question: "4. In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",  ///// Write the question inside double quotes
       answers: {
         a: "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",  
           ///// Write the option 1 inside double quotes
