@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Polarization of light using He – Ne Laser</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	  	<script src="js/graph.ob.js"></script>
+   		<script type="text/javascript" src="js/graph_line_use.ob.js"></script>
+   		<script type="text/javascript" src="js/script.js"></script>
+   		<style type="text/css">
+   			#myCanvas{
+   				background:url("image/back.svg");
+				background-repeat: no-repeat;
+				  
+			  	background-position: fixed;
+			  	background-position: 0px 0px;
+			  	background-size:cover;
+   			}
+   			#myCanvas1,#myCanvas2{
+   				background:url("image/pol.svg");
+				background-repeat: no-repeat;
+				  
+			  	background-position: fixed;
+			  	background-position: 0px 0px;
+			  	background-size:cover;
+   			}
+   		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" style="background: #9ac0fc; font-size: 30px;text-align: center;color: black;"><b>Polarization of light using He – Ne Laser</b>
+				</div>
+				<div class="col-md-12" style="border: 5px #00538c solid;background-color: #121212;padding: 5px;">
+					<center>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-2" ></div>
+								<div class="col-md-2" >
+									<canvas id="myCanvas1" width="75" height="75" >
+									</canvas>
+								</div>
+								<div class="col-md-1" ></div>
+								<div class="col-md-2" >
+									<canvas id="myCanvas2" width="75" height="75" >
+									</canvas>
+								</div>
+								<div class="col-md-5" ></div>
+							</div>
+							<div class="col-md-12">
+								<canvas id="myCanvas" width="1100" height="250" ></canvas>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-2" ></div>
+								<div class="col-md-2">
+									<input id="b1" type="button" value="-" onclick="left_min();">
+									<input id="t1" type="text" value="0" value="2" size="2" onkeyup="sum();">
+									<input id="b2" type="button" value="+" onclick="left_plu();">
+								</div>
+								<div class="col-md-1" ></div>
+								<div class="col-md-2">
+									<input id="b3" type="button" value="-" onclick="right_min();">
+									<input id="t2" type="text" value="0" value="2" size="2" onkeyup="sum();">
+									<input id="b4" type="button" value="+" onclick="right_plu();">
+								</div>
+								<div class="col-md-3" ></div>
+								<div class="col-md-2" style="color: white;">
+									I/I(0)<input id="t3" type="text" style="color: black" size="12">
+								</div>
+							</div>
+						</div>
+					</center>
+				</div>
+				<br>
+				<!-- <div class="col-md-12" style="background-color: red;">
+					<span style="color: white;">*Note : intensity will be maximum, when the diffrence between the angle of polarizer and analyzer will be 0,180 or -180. </span>
+				</div> -->
+				<div class="col-md-12" style="background: #9ac0fc;color: black;text-align: center;margin-top:10px; ">
+			     <h4>TABLE : OBSERVATIONS</h4>
+			        
+				</div>
+				<form method="GET" id="my_form"></form>
+				<center>
+					<table>
+						<tr>
+					        <td>S. No. </td>
+					        <td>
+					            <!-- <input type="text" name="company" readonly form="my_form" value="Angle of Analyzer  (degrees)" /> -->
+					           	<textarea style="height:70px;width:180px;text-align: center;" value="2" size="2" disabled="disabled" >Angle of Analyzer &#13;&#10; &straightphi; &#13;&#10; (degrees)</textarea>
+					        </td>
+					        <td>
+					            <!-- <input type="text" name="company" readonly form="my_form" value="Angle of Analyzer  (degrees)" /> -->
+					           	<textarea style="height:70px;width:180px;text-align: center;" value="2" size="2" disabled="disabled" >Angle of Analyzer &#13;&#10; &straightphi;&#8728;&#13;&#10; (degrees)</textarea>
+					        </td>
+					        <td>
+					        	<textarea style="height:70px;width:180px;text-align: center;" value="2" size="2" disabled="disabled" >Angle between the axes of polarizer and Analyzer &#13;&#10;‘&theta;’ = &straightphi; - &straightphi;&#8728; (degrees)</textarea>
+					        </td>
+					        <td>
+					        	<textarea style="height:70px;width180px; text-align: center;" value="2" size="2" disabled="disabled" >COS &theta; </textarea>
+					        </td>
+					        <td>
+					        	<textarea style="height:70px;width:180px;text-align: center;" value="2" size="2" disabled="disabled" >COS² &theta;</textarea>
+					        </td>
+					        <td>
+					        	<textarea style="height:70px;width:180px;text-align: center;" value="2" size="2" disabled="disabled" >I/I(0)</textarea>
+					        </td>
+					    </tr>
+					    <tr>
+					        <td><center>1.</center></td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text" id="d1" />
+					        </td>
+					        <td>
+					            <input type="text" id="f1" />
+					        </td>
+					    </tr>
+					    <tr>
+					        <td><center>2.</center></td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text" id="d2" />
+					        </td>
+					        <td>
+					            <input type="text" id="f2" />
+					        </td>
+					    </tr>
+					    <tr>
+					        <td><center>3.</center></td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text" id="d3" />
+					        </td>
+					        <td>
+					            <input type="text" id="f3" />
+					        </td>
+					    </tr>
+					    <tr>
+					        <td><center>4.</center></td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text" id="d4" />
+					        </td>
+					        <td>
+					            <input type="text" id="f4" />
+					        </td>
+					    </tr>
+					    <tr>
+					        <td><center>5.</center></td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text"/>
+					        </td>
+					        <td>
+					            <input type="text" id="d5" />
+					        </td>
+					        <td>
+					            <input type="text" id="f5" />
+					        </td>
+					    </tr>
+					</table>
+					<div id="l1" style="height: 230px; width: 700px;display: none;"></div>
+					<button onclick="drawGraph()">Plot Graph</button>
+				</center>
+				<!-- <script type="text/javascript">
+					function sum(){
+						var d1=document.getElementById("t1").value;
+						var d2=document.getElementById("t2").value;
+						var res=parseInt(d1)-parseInt(d2);
+						var mo=Math.pow(Math.cos(res),2);
+						document.getElementById("t3").value=mo;
+					}
+					function left_min(){
+						var A= parseInt(document.getElementById("t1").value);
+						if (A<=-180) {
+							alert("Angle should be in between of +180 to -180");
+						}else{
+							var B= parseInt(A-10);
+							B = B<-180?-180:B;
+							document.getElementById("t1").value=B;
+							// alert("gvhb");
+							document.getElementById("myCanvas1").style.transform = "rotate("+B+"deg)";
+							// alert("ggbfhvbhsvbhs");
+						}
+						sum();
+					}
+					function left_plu(){
+						var A= parseInt(document.getElementById("t1").value); 
+						if (A>=180) {
+							alert("Angle should be in between of +180 to -180");
+						}else{
+							var B= parseInt(A+10);
+							B = B>180?180:B;
+							document.getElementById("t1").value=B;
+							document.getElementById("myCanvas1").style.transform = "rotate("+B+"deg)";
+						}
+						sum();
+
+					}
+					function right_min(){
+						var A= parseInt(document.getElementById("t2").value);
+						if (A<=-180) {
+							alert("Angle should be in between of +180 to -180");
+						}else{
+							var B= parseInt(A-10);
+							B = B<-180?-180:B;
+							document.getElementById("t2").value=B;
+							document.getElementById("myCanvas2").style.transform = "rotate("+B+"deg)";
+						}
+						sum();
+
+					}
+					function right_plu(){
+						var A= parseInt(document.getElementById("t2").value);
+						if (A>=180) {
+							alert("Angle should be in between of +180 to -180");
+						}else{
+							var B= parseInt(A+10);
+							B = B>180?180:B;
+							document.getElementById("t2").value=B;
+							document.getElementById("myCanvas2").style.transform = "rotate("+B+"deg)";
+						}
+						sum();
+
+					}
+
+
+
+					function drawGraph() {
+						document.getElementById("l1").style.display="block";
+						var datapoints1 = [];
+						for (let i = 1; i <= 5; i++) {
+						    var tx = document.getElementById("d"+i).value;
+						    var ty = document.getElementById("f"+i).value;
+						    datapoints1.push({ x: parseInt(tx), y: parseInt(ty) });
+						    graphline("l1", datapoints1, "COS² θ;", "I/I(0);");
+					    }
+					}
+
+
+				</script> -->
+			</div>
+		</div>
+	<script src="../assets/js/iframeResize.js"></script></body>
+</html>
