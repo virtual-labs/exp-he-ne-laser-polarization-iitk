@@ -110,7 +110,7 @@
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
        {
-            question: "Unpolarised light is:", ///// Write the question inside double quotes
+            question: "3. Unpolarised light is:", ///// Write the question inside double quotes
             answers: {
                 a: "Transverse Electromagnetic wave", ///// Write the option 1 inside double quotes
                 b: "longitudinal Electromagnetic wave", ///// Write the option 2 inside double quotes
@@ -120,7 +120,7 @@
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
             {
-            question: "Polarization cannot be observed in:", ///// Write the question inside double quotes
+            question: "4. Polarization cannot be observed in:", ///// Write the question inside double quotes
             answers: {
                 a: "Light wave", ///// Write the option 1 inside double quotes
                 b: "Sound wave", ///// Write the option 2 inside double quotes
