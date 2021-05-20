@@ -1,5 +1,5 @@
 [{
-	"question": "Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup> θ is",
+	"question": "1. Nature of graph between intensity of light coming out of Analyzer and Cos<sup>2</sup> θ is",
 	"answers": {
 		"a": "Straight line",
 		"b": "Parabolic",
@@ -8,7 +8,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Almost no light will come out of analyzer if the angle between polarizer and analyzer is",
+	"question": "2. Almost no light will come out of analyzer if the angle between polarizer and analyzer is",
 	"answers": {
 		"a": "0 degree",
 		"b": "90 degree",
@@ -18,7 +18,7 @@
 	"correctAnswer": "b"
 },
  {
-	"question": "Vibrations of the Electric vectors of the Ordinary Light wave are:",
+	"question": "3. Vibrations of the Electric vectors of the Ordinary Light wave are:",
 	"answers": {
 		"a": "Perpendicular to the plane of propagation in all possible directions",
 		"b": "Parallel to the plane of propagation",
@@ -28,7 +28,7 @@
 	"correctAnswer": "a"
 },
 {
-	"question": "In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",
+	"question": "4. In the experiment of polarization the angle the intensity of light coming out of analyzer depends on:",
 	"answers": {
 		"a": "angle between the plane of vibration of plane polarized light and the optic axis of the analyzer",
 		"b": "Material of analyzer",
